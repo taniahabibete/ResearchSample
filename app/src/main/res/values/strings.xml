@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Project or Thesis Showcasing System</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_country">Country</string>
+    <string name="hint_gender">Gender</string>
+    <string name="hint_name">Fullname</string>
+    <string name="hint_usertype">Teacher / Student</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="logout">logout</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="hint_mobile">Mobile</string>
+
+
+    // Navigation String
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="CSE">CSE</string>
+    <string name="EEE">EEE</string>
+    <string name="ETE">ETE</string>
+    <string name="Project">Project</string>
+    <string name="Thesis">Thesis</string>
+    <string name="Teacher">Teacher</string>
+    <string name="Student">Student</string>
+
+
+</resources>

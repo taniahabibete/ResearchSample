@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_addthesis"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Add Thesis/Project"/>
+        <item
+            android:id="@+id/nav_Teacherthesis"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Teacher's Thesis/Project"/>
+        <item
+            android:id="@+id/nav_Studentthesis"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Student's Thesis/Project"/>
+        <item
+            android:id="@+id/nav_ThesisIdea"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Add Thesis Idea"/>
+        <item
+            android:id="@+id/nav_ThesisIdeaList"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Thesis Idea List"/>
+        <item
+            android:id="@+id/nav_reference"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Reference"/>
+        <item
+            android:id="@+id/nav_Profile"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Profile"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Logout"/>
+    </group>
+
+    <!--<item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/ic_menu_share"
+                android:title="About Us"/>
+
+        </menu>
+    </item>-->
+
+</menu>

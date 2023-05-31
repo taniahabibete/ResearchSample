@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.researchsample">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/thesisappslogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/thesisappslogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ThesisIdeaListDetailActivity"></activity>
+        <activity android:name=".ReferenceActivity" />
+        <activity android:name=".ThesisIdeaListActivity" />
+        <activity android:name=".AddThesisIdeaActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".StudentThesisActivity" />
+        <activity android:name=".TeacherThesisActivity" />
+        <activity android:name=".AddThesisActivity" />
+        <activity android:name=".SampleListDetailsActivity" />
+        <activity android:name=".EmailVerify" />
+        <activity android:name=".ResetActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+    </application>
+
+</manifest>
